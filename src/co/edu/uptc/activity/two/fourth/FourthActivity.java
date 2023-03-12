@@ -1,5 +1,9 @@
 package co.edu.uptc.activity.two.fourth;
 
-public class FourthActivity {
+import java.io.*;
+import java.util.Base64;
 
+public class FourthActivity {
+	
+	 
 }

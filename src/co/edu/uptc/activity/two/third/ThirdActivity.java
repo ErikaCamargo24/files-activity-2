@@ -10,7 +10,7 @@ public class ThirdActivity {
 		StringBuilder builder = new StringBuilder();
 		try (Scanner scanner = new Scanner(file)) {
 			scanner.useDelimiter("\n");
-			while (scanner.hasNextLine()) {
+			while (scanner.hasNext()) {
 				builder.append(scanner.next());
 			}
 		} catch (Exception e) {
